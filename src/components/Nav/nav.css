@@ -1,0 +1,123 @@
+.logo{
+   width: 40%;
+   padding: 10px;
+}
+
+
+
+.na{
+    position: relative;
+   
+
+ 
+}
+
+.ni{
+
+}
+
+.ni:hover{
+    font-weight: bold;;
+}
+
+.get-started{
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.get-started:hover{
+    background:  none;
+    color: #000;
+}
+
+.get-started::before{
+    content: "Get";
+    color: #82E473;
+}
+
+.get-started:focus{
+  background: none;
+}
+
+
+@media (min-width: 1281px) {
+  
+.na{
+    left: 3%;
+}
+    
+  }
+
+  @media (min-width: 1400px) {
+  
+    .na{
+        left: 12%;
+    }
+        
+      }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  /* @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .na{
+        left: -12%;
+    }
+    
+  } */
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1200px) {
+    
+   .na{
+    left: -12%;
+   }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+ 
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .navbar-toggler {
+        cursor: none;
+        left: 80%;
+        position: relative;
+        margin-top: -15%;
+    }
+    
+  }
+ 
+

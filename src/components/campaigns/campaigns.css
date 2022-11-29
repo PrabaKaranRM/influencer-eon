@@ -1,0 +1,105 @@
+.hc-txt{
+    color: #000;
+font-weight: bold;
+font-family: Clab-s;
+font-size: 45px;
+margin-top: 10%;
+
+}
+
+.camp1{
+  width: 45%;
+  position: relative;
+  left: 40%;
+  top: 5%;
+}
+
+.camp2{
+    width: 30%;
+    position: relative;
+    left: -10%;
+    top: 8%;
+  
+   
+  
+}
+
+.camp3{
+    width: 30%;
+    position: relative;
+    left: -6%;
+    top: 0%;
+
+}
+.camp4{
+    width: 30%;
+    position: relative;
+    left: -2%;
+    top: 8%;
+
+}
+
+.camp5{
+    width: 30%;
+    position: relative;
+    left: -10%;
+    top: 7%;
+
+}
+
+.camp6{
+    width: 30%;
+    position: relative;
+    left: -6%;
+    top: -5%;
+
+}
+
+.camp7{
+    width: 30%;
+    position: relative;
+    left: -2%;
+    top: 7%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .camp1{
+        display: none;
+        
+    }
+
+    .camp2{
+        left: 5%;
+        padding: 10px;
+    }
+    .camp3{
+        left: 5%;
+        padding: 10px;
+    }
+    .camp4{
+        left: 5%;
+        padding: 10px;
+    }
+    .camp5{
+        left: 5%;
+        padding: 10px;
+    }
+    .camp6{
+        left: 5%;
+        padding: 10px;
+    }
+    .camp7{
+        left: 5%;
+        padding: 10px;
+        
+    }
+
+    .bt-ht{
+        margin-bottom: 10%;
+    }
+
+    .hc-txt{
+        font-size: 36px;
+    }
+}

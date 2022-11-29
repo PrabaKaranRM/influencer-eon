@@ -1,0 +1,67 @@
+.tp{
+    margin-top: -10%;
+}
+
+.nd-tx{
+    position: relative;
+    top: 50%;
+font-size: 20px;
+
+}
+
+
+
+.count-sec{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.counter{
+    position: relative;
+   color: #E7193B;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.proj{
+    color: #252525;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mb-fr{
+        margin-top: 25%;
+        font-size: 36px;
+    }
+
+    .nd-tx{
+        top: 10%;
+    }
+
+    .counter{
+        font-size: 36px;
+    }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+  
+        .counter {
+            position: relative;
+            color: #E7193B;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .proj {
+            color: #252525;
+            font-weight: bold;
+            display: flex;
+            font-size: 18px;
+            justify-content: center;
+        }
+        
+      }

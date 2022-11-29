@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Clab-s;
+    src: url("../../images/assets/font/clab/Clab\ Personal\ Use-Bold.otf")
+  }
+
+.hb-txt{
+    color: #000;
+font-weight: bold;
+font-family: Clab-s;
+font-size: 45px;
+margin-top: 5%;
+
+}
+
+.slid{
+    position: relative;
+    margin-top: 6%;
+    margin-bottom: 10%;;
+    left: 5%;
+}
+
+.logs{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    cursor: pointer;
+  
+}
+
+.logs:hover{
+    filter: none;
+}
+
+
+.slid-mb{
+    display: none;;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .slid{
+        display: none;
+        
+        
+    }
+
+    .slid-mb{
+        display: block;
+        position: relative;
+        margin-left: 5%;
+      margin-top: 20%;
+      padding-bottom: 10%;
+    }
+
+    .logs{
+padding: 10%;
+        width: 100%;
+
+        
+     
+      
+    }
+
+    .hb-txt{
+     font-size: 36px;
+     
+     margin-top: 30%;
+    }
+}
+

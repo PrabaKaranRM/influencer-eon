@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Clab-s;
+    src: url("../../images/assets/font/clab/Clab\ Personal\ Use-Bold.otf")
+  }
+
+.influ{
+    position: relative;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 10%;
+    font-family: Clab-s;
+}
+
+
+
+.inf-txt{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-top: 10%;
+    font-family: Clab-s;
+}
+
+.oinf-txt{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-top: 10%;
+    padding-left: 23%;
+    font-family: Clab-s;
+}
+
+.tinf-txt{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-top: 10%;
+    padding-right: 23%;
+    font-family: Clab-s;
+}
+
+
+
+.path{
+    position: relative;
+    margin-top: -30%;
+ z-index: -1;
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.imge{
+    width: 65%;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    z-index: 0;
+}
+.imge1{
+    width: 65%;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+.imge2{
+    width: 65%;
+    position: relative;
+    top: 10%;
+    left: 9%;
+    z-index: 0;
+}
+
+.cir{
+    position: relative;
+    width: 15%;
+    left: 20%;
+    
+    z-index: 1;
+ 
+
+}
+
+
+
+
+
+.poly{
+    position: relative;
+    width: 25%;
+    z-index: 1;
+    top: 20%;
+}
+
+
+@media only screen and (max-width: 768px) {
+   .cir{
+    display: none;
+   }
+
+   .imge{
+    margin-bottom: 20%;
+    left: 19%;
+   }
+   .imge1{
+    top: 15%;
+    margin-bottom: 25%;
+   }
+   .imge2{
+    left: 19%;
+    margin-top: 10%;
+   }
+   .poly{
+    
+    display: none;
+   
+   }
+   .influ{
+    font-size: 36px;
+   }
+
+   .oinf-txt{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-top: 10%;
+    padding-left: 0%;
+   
+}
+
+.tinf-txt{
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    margin-top: 10%;
+    padding-right: 0%;
+}
+    }
+

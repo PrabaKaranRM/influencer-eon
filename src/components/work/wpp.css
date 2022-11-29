@@ -1,0 +1,142 @@
+.hw-txt{
+  position: relative;
+  margin-top: 15%;
+  
+}
+
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  margin-top: 5%;
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+  font-weight: bold;
+    cursor: pointer;
+ background: none;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 30px;
+  }
+
+  
+  .active-tabs  {
+    color: #82E473;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+  
+  }
+  
+  .ima{
+   
+    width: 70%;
+    left: 15%;
+    position: relative;
+    padding: 20px;
+    transition: 1s linear;
+    animation: fadeIn 2s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .tabs{
+      font-size: 16px;
+    }
+
+    .hw-txt{
+      font-size: 36px;
+    
+    }
+
+    .ima{
+      width: 90%;
+      position: relative;
+      left: 5%;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+.bloc-tabs{
+display: flex;
+flex-direction: column;
+margin-top: 10%;
+}
+
+.tabs {
+  margin-top: 0%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  font-weight: bold;
+    cursor: pointer;
+ background: none;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 20px;
+
+  }
+
+  .ima {
+    width: 100%;
+    position: relative;
+    left: 0%;
+}
+    
+  }
+
+
+
+    
